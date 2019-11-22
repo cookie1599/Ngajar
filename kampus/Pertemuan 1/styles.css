@@ -1,0 +1,31 @@
+.container {
+    margin: 0 auto;
+    width: 900px;
+    border: dashed 2px blue;
+    /* border-style: dashed; */
+    padding: 60px;
+}
+
+.container h5 {
+   display: inline-block;
+}
+
+#tanggal {
+    padding-left: 40px ;
+}
+
+.komentar{
+    padding-bottom: -20px;
+    padding-left: 20px;
+    display: inline-block;
+    border: dashed 4px grey ;
+    width: 900px;
+}
+
+.komentar p:first-child {
+    display: inline-block;
+}
+
+.komentar p:last-child {
+    color: grey;
+}
